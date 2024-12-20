@@ -1,0 +1,55 @@
+
+.side_section{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(18, 9, 9);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.navigation{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+nav ul li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    
+}
+nav ul a{
+    text-decoration: underline hsl(0, 0%, 40%) 1px;
+    text-underline-offset: 7px;
+    color: hsl(0, 0%, 40%);
+    font-size: 25px;
+
+    
+}
+nav ul a:hover{
+    animation: scale-menu 1s forwards ease-out;
+
+}
+.navigation li i {
+    margin-right: 5px;
+}
+
+@keyframes scale-menu{
+    0%{
+
+    }
+    100%{
+        font-size: 30px;
+        color: aqua;
+        text-decoration: underline aqua 1px;
+        
+    }
+}
+
+
+header{
+    position: absolute;
+    background-color: greenyellow;
+}
+header h1{
+    position: absolute;
+}
