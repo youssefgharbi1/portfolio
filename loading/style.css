@@ -1,0 +1,36 @@
+.outside{
+    position: relative;
+    background: linear-gradient(to right, hsl(180, 100%, 50%),hsla(180, 100%, 80%, 0.755) , aqua);
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 40%;
+    animation: spin 3s infinite ease-in-out;
+}
+.outside::after{
+    content: '';
+    position: absolute;
+    background: black;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    right: 10%;
+}
+body{
+    background-color: black;
+}
+@keyframes spin{
+    0% {
+        transform: rotatex(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    30% {
+        transform: rotatex(180deg);
+    }
+    60% {
+        transform: rotatex(180deg) rotatey(180deg);
+    }
+    100%{
+        transform: rotatex(180deg) rotateY(180deg) rotateZ(180deg) ;
+    }
+    
+}
