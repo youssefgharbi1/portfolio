@@ -63,6 +63,14 @@ body {
     background-color: #000000;
     align-items: center;
 }
+.main-section p {
+    font-family: 'Arial', sans-serif; /* Clean and widely supported */
+    font-size: 20px; /* Comfortable reading size */
+    line-height: 1.6; /* Spacing between lines for better readability */
+    color: hsl(0, 0%, 40%); /* Dark gray is easier on the eyes than pure black */
+    text-align: justify; /* Aligns text for a clean, professional look */
+    margin: 10px 0; /* Adds space above and below the paragraph */
+}
 .main-section img{
     margin: 20%;
     border-radius: 100px;
@@ -85,14 +93,7 @@ body {
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
-.main-section p {
-    font-family: 'Arial', sans-serif; /* Clean and widely supported */
-    font-size: 20px; /* Comfortable reading size */
-    line-height: 1.6; /* Spacing between lines for better readability */
-    color: hsl(0, 0%, 40%); /* Dark gray is easier on the eyes than pure black */
-    text-align: justify; /* Aligns text for a clean, professional look */
-    margin: 10px 0; /* Adds space above and below the paragraph */
-}
+
 .main-section .container button{
     height: 10%;
     padding: 2%;
